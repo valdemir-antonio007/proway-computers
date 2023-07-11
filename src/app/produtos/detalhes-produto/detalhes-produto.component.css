@@ -1,0 +1,41 @@
+.produto {
+    display: flex;
+    margin: 30px;
+    
+}
+img {
+    width: 250px;
+}
+.produto-imagem {
+    margin-right: 10px;
+}
+.produto-detalhe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.produto-descricao {
+        font-size: 22px;
+        color: var(--blue);
+}
+.produto-preco {
+    color: var(--orange);
+    font-size: 22px;
+    font-weight: bolder;
+}
+.produto-quantidade input {
+    width: 40px;
+    margin-right: 5px;
+}
+.avalibiliti {
+    font-size: 13px;
+}
+.addCar {
+    background-color: var(--blue);
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    font-size: 18px;
+
+}

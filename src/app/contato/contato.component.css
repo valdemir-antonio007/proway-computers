@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.contato-content {
+    display: flex;
+}
+.contato-form {
+    flex: 1;
+   
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+mat-form-field {
+    width: 80%;
+}
+button {
+    background-color: var(--blue);
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+button:disabled {
+    background-color: gray;
+    cursor: default;
+}
+.contato-mapa {
+    flex: 1;
+}

@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="produto" *ngIf="produto">
+        <div class="produto-imagem">
+            <img [src]="produto.imagem" alt="">
+        </div>
+        <div class="produto-detalhe">
+            <div class="produto-descricao"> {{produto.descricao}} </div>
+            <div class="produto-preco"> {{produto.preco | currency: 'BRL' }} </div>
+            <div class="produto-descricao-preco"> {{produto.descricaoPreco}} </div>
+            <p class="produto-quantidade">
+                <input type="number" name="" id="" [(ngModel)]="quantidade" >unidade(s)
+            </p>
+            <p class="avalibiliti">
+                   10 unidades em estoque
+            </p>
+            <button (click)="addCart()" class="addCar">Adicionar ao carrinho</button>
+        </div>
+    </div>
+</div>

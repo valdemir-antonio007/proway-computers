@@ -1,0 +1,30 @@
+<div class="header">
+    <div class="logo">
+        <h2> <span class="logo1">ProWay</span>   <span class="logo2">Computers</span> </h2>
+    </div>
+    <div class="info">
+        <div class="menu">
+            <nav>
+                <ul>
+                  <div class="esq">  
+                    <li> <a routerLink="produtos"> Produtos </a> </li>
+                    <li> <a routerLink="contato"> Contato </a> </li>
+                    <li> <a routerLink="carrinho"> Carrinho  <mat-icon matBadge="{{carrinhoService.obtemCarrinho().length}}" matBadgeColor="warn"> <i class="fa-solid fa-cart-shopping"></i> </mat-icon>
+
+                    </a> </li>
+                  </div>
+                  <div class="dir">
+                    <li> <a> <i class="fa-brands fa-instagram"></i> </a> </li>
+                    <li> <a> <i class="fa-brands fa-linkedin-in"></i> </a> </li>
+                    <li> <a> <i class="fa-brands fa-twitter"></i> </a> </li>
+                    <li> <a> <i class="fa-brands fa-facebook"></i> </a> </li>
+                    
+                  </div>  
+                </ul>
+            </nav>
+        </div>
+        <div class="search">
+            <input type="text"> <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+</div>

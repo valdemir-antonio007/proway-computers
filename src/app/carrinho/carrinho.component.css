@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+img {
+    width: 100px;
+}
+.carrinho-detalhes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px ;
+    background-color: var(--cinza-medio);
+    align-items: center;
+    padding: 15px;
+}
+.produto-quantidade input {
+    width: 40px;
+}
+.removeItem {
+    background-color: red;
+    border: none;
+    color: white;
+    height: 80px;
+    width: 40px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+.carrinho-title {
+    font-size: 30px;
+    color: var(--blue);
+    margin-bottom: 15px;
+}
+.carrinho-total {
+    background-color: var(--dark);
+    height: 100px;
+    margin-bottom: 20px;
+    color: var(--orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.carrinho-total button {
+    background-color: var(--orange);
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.semProduto {
+    text-align: center;
+    margin: 50px;
+    color: red;
+    font-size: 40px;
+}
