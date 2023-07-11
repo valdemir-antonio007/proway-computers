@@ -1,0 +1,21 @@
+.search {
+    display: flex;
+}
+.search input {
+    width: 80%;
+    background-color: var(--cinza-medio);
+    border: none;
+    font-size: 18px;
+    color: var(--orange);
+    outline: none;
+}
+.search i {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    color: white;
+    font-size: 18px;
+}
